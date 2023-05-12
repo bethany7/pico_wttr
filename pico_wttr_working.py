@@ -78,4 +78,5 @@ else:
     print( 'ip = ' + status[0] )
     while True:
         loop()
+        gc.collect()
         time.sleep(1800)
