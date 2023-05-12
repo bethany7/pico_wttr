@@ -53,5 +53,6 @@ if wlan.status() != 3:
 else:
     while True:
         loop()
+        gc.collect()
         time.sleep(1800)
 
